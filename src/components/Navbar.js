@@ -47,10 +47,10 @@ const Navbar = () => {
   return (
     <AppBar position="sticky">
       <StyledToolbar>
-        <Typography variant="h6" sx={{ display: { xs: "none", sm: "block" } }}>
-          LAMA DEV
+        <Typography variant="h6" sx={{ display: { xs: "block", sm: "none" } }}>
+          Social
         </Typography>
-        <Pets sx={{ display: { xs: "block", sm: "none" } }} />
+        <Pets sx={{ display: { xs: "none", sm: "block" } }} />
         <Search>
           <InputBase placeholder="search..." />
         </Search>
